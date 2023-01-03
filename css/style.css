@@ -276,6 +276,7 @@ body {
 /*  WWD */
 
 .wwd {
+  width: 1200px;
   background: var(--white);
   margin: 0 auto;
   padding: 94px 0;
@@ -293,8 +294,7 @@ body {
 
 .wwd__grid {
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
 }
 
 .wwd__item {
@@ -312,6 +312,7 @@ body {
   background-color: var(--wydOverlay);
   bottom: 0;
   left: 0;
+
   justify-content: center;
   align-items: center;
 }
@@ -329,6 +330,7 @@ body {
 /* TEAM */
 
 .team {
+  width: 1200px;
   margin: 0 auto;
   padding: 94px 0;
   background: var(--background);
@@ -350,8 +352,7 @@ body {
 
 .team__grid {
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  justify-content: space-between;
 }
 
 .team-card {
