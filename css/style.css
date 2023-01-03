@@ -330,10 +330,15 @@ body {
 /* TEAM */
 
 .team {
-  width: 1200px;
-  margin: 0 auto;
   padding: 94px 0;
   background: var(--background);
+}
+
+.team__container {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
 }
 
 .team__title {
