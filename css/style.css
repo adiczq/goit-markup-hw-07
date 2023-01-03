@@ -351,16 +351,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-.bg {
-  background: var(--background);
-}
-
 .team__grid {
   display: flex;
   justify-content: space-between;
 }
 
-.team-card {
+.team__card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -371,7 +367,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.name {
+.team__name {
   padding: 28px 0 8px 0;
   font-weight: 500;
   font-size: 1rem;
@@ -380,7 +376,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.job {
+.team__job {
   margin-bottom: 16px;
   font-size: 1rem;
   line-height: 1.19;
@@ -389,7 +385,7 @@ body {
   color: var(--grey);
 }
 
-.team-icons-box {
+.team__item {
   margin-bottom: 30px;
   display: flex;
   gap: 10px;
